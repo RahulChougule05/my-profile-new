@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+header nav{
+    background-color: #0D5C63;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    top:50px;
+}
+.info{
+    margin-top: 15px;
+}
+.info img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 100px;
+}
+.contactInfo{
+    padding-top: 60px;
+}
+.contactInfo h2{
+    color: #0D5C63;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder; 
+    word-spacing: 5px;
+    text-shadow: 1px 1px 1px rgb(75, 74, 74);
+}
+.contactInfo p{
+    color: #0D5C63; 
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+.summary{
+    margin-top: 30px;
+}
+.summary h2{
+    color: #0D5C63; 
+    font-family: 'Poppins', sans-serif;
+    background-color: #aaa69d;
+}
+.summary ul li{
+    padding: 10px 0px;
+    font-weight: bolder;
+    color: #0D5C63; 
+    font-family: 'Poppins', sans-serif;
+}
+.summary ul li::before{
+    content: '✍️';
+    font-size: larger;
+    padding-right: 20px;
+}
+.summary ul li::selection{
+    background-color: rgb(204, 181, 140);
+}
+.techStach{
+    margin-top: 20px;
+}
+.techStach h2{
+    color: #0D5C63; 
+    background-color: #aaa69d;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.techStach table,tr,td{
+    border: 2px solid #182C61;
+    border-collapse: collapse;
+}
+.techStach table,tr,td{
+    padding: 10px;
+}
+.Technology, .Tools{
+    color: #0D5C63; 
+    font-weight: bolder;
+    background-color: #CAD3C8;
+    font-family: 'Poppins', sans-serif;
+}
+.technologyPoints, .toolsPoints{
+    color: #0D5C63; 
+    font-weight: bolder;
+    background-color: #F8EFBA;
+    font-family: 'Poppins', sans-serif;
+}
+.education{
+    margin-top: 20px;
+}
+.education h2{
+    color: #0D5C63; 
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #aaa69d;
+}
+.education table,th,tr,td{
+    border: 2px solid #182C61;
+    border-collapse: collapse;
+}
+.education table th,td{
+    padding: 10px;
+}
+.educationPointsHeader{
+    color: #0D5C63; 
+    font-weight: bolder;
+    background-color: #CAD3C8;
+    font-family: 'Poppins', sans-serif;
+}
+.education table tbody tr td{
+    color: #0D5C63; 
+    font-weight: bolder;
+    background-color: #F8EFBA;
+    font-family: 'Poppins', sans-serif;
+}
+.personal{
+    margin-top: 20px;
+}
+.personal h2{
+    color: #0D5C63; 
+    font-family: 'Poppins', sans-serif;
+    background-color: #aaa69d;
+}
+.personal .personalInfo{
+    color: #0D5C63; 
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 0px;
+}
+.personal .personalInfo .personalPoints1::before{
+    content: '👉';
+    font-size: larger;
+    padding-right: 10px;
+}
+.personal .personalInfo .personalPoints1{
+    color: #fc5c65;
+}
+.personal .personalInfo .personalPoints2::before{
+    content: '🔹';
+    font-size: larger;
+    padding-right: 10px;
+    padding-left: 50px;
+}
+footer{
+    background-color: #0D5C63;
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    top: 1770px;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #F2F2F2;
+    font-size: large;
+}
